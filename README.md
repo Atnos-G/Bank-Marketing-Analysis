@@ -1,14 +1,25 @@
-Bank-Marketing-Analysis/
-│
-├── README.md
-├── requirements.txt
-├── data/
-│   └── BankFull.csv  # Exemple de données (si elles peuvent être rendues publiques)
-├── notebooks/
-│   └── bank_marketing_analysis.ipynb  # Script Jupyter ou Notebook
-├── src/
-│   ├── main.py        # Script principal (optionnel, si hors Notebook)
-│   └── utils.py       # Fonctions utilitaires (si applicable)
-├── outputs/
-│   └── visuals/       # Graphiques générés
-└── LICENSE            # Licence du projet (optionnelle)
+# Bank Marketing Analysis
+
+## Description
+Ce projet analyse les données de campagnes de marketing bancaire afin de prédire si un client potentiel acceptera un produit bancaire. Les modèles utilisés incluent le XGBoost, avec une optimisation des hyperparamètres et une analyse d'interprétabilité via SHAP.
+
+## Objectifs
+- Comprendre les données et leur distribution.
+- Construire des modèles prédictifs et les optimiser.
+- Fournir une interprétation des résultats pour une meilleure prise de décision.
+
+## Technologies utilisées
+- Python (pandas, scikit-learn, xgboost, matplotlib, seaborn)
+- Jupyter Notebook
+- SHAP pour l'interprétabilité
+
+## Résultats
+Les résultats montrent que :
+- La variable `duration` a le plus grand impact sur les prédictions.
+- Les clients non-propriétaires et âgés entre 30 et 50 ans sont plus susceptibles de souscrire.
+
+## Comment exécuter ce projet ?
+1. Clonez ce dépôt :
+   ```bash
+   git clone https://github.com/ton-utilisateur/Bank-Marketing-Analysis.git
+
